@@ -1,0 +1,45 @@
+#/vis/open OGL 600x600-0+0
+#/vis/open Qt
+#/vis/open OGLSX 900*900
+/vis/open OGL
+#/vis/sceneHandler/create OGLSX
+#/vis/viewer/create ! ! 600x600-0+0
+
+
+#/vis/open VRML2FILE
+#/vis/open DAWNFILE
+
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+
+/vis/drawVolume
+
+#/vis/viewer/set/background white
+
+/vis/scene/add/trajectories 
+#/vis/scene/add/trajectories rich
+
+#/vis/scene/add/hits
+
+/vis/modeling/trajectories/create/drawByCharge
+#/vis/filtering/trajectories/create/encounteredVolumeFilter MPPC
+#/vis/filtering/trajectories/MPPC/add mppc
+#/vis/filtering/trajectories/create/originVolumeFilter
+#/vis/filtering/trajectories/originVolumeFilter-0/add mppc
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 3
+
+#/vis/scene/endOfEventAction accumulate
+
+
+/vis/geometry/set/visibility World 0 false
+/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi  45.00 0.00
+#/vis/viewer/set/viewpointThetaPhi  90.001 90.00
+/vis/viewer/set/viewpointVector 0 1 0.000001
+/vis/viewer/set/style surface
+#/vis/viewer/set/style wireframe
+#/vis/viewer/set/hiddenEdge 1 
+
+#/run/beamOn 1

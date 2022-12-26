@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ToF.dir/ToF.cc.o"
+  "CMakeFiles/ToF.dir/ToF.cc.o.d"
+  "CMakeFiles/ToF.dir/src/ActionInitialization.cc.o"
+  "CMakeFiles/ToF.dir/src/ActionInitialization.cc.o.d"
+  "CMakeFiles/ToF.dir/src/AnalysisManager.cc.o"
+  "CMakeFiles/ToF.dir/src/AnalysisManager.cc.o.d"
+  "CMakeFiles/ToF.dir/src/BeamManager.cc.o"
+  "CMakeFiles/ToF.dir/src/BeamManager.cc.o.d"
+  "CMakeFiles/ToF.dir/src/DetectorConstruction.cc.o"
+  "CMakeFiles/ToF.dir/src/DetectorConstruction.cc.o.d"
+  "CMakeFiles/ToF.dir/src/EventAction.cc.o"
+  "CMakeFiles/ToF.dir/src/EventAction.cc.o.d"
+  "CMakeFiles/ToF.dir/src/MagneticField.cc.o"
+  "CMakeFiles/ToF.dir/src/MagneticField.cc.o.d"
+  "CMakeFiles/ToF.dir/src/MaterialList.cc.o"
+  "CMakeFiles/ToF.dir/src/MaterialList.cc.o.d"
+  "CMakeFiles/ToF.dir/src/PhysicsList.cc.o"
+  "CMakeFiles/ToF.dir/src/PhysicsList.cc.o.d"
+  "CMakeFiles/ToF.dir/src/PrimaryGeneratorAction.cc.o"
+  "CMakeFiles/ToF.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "CMakeFiles/ToF.dir/src/RunAction.cc.o"
+  "CMakeFiles/ToF.dir/src/RunAction.cc.o.d"
+  "CMakeFiles/ToF.dir/src/StackingAction.cc.o"
+  "CMakeFiles/ToF.dir/src/StackingAction.cc.o.d"
+  "CMakeFiles/ToF.dir/src/SteppingAction.cc.o"
+  "CMakeFiles/ToF.dir/src/SteppingAction.cc.o.d"
+  "CMakeFiles/ToF.dir/src/TargetHit.cc.o"
+  "CMakeFiles/ToF.dir/src/TargetHit.cc.o.d"
+  "CMakeFiles/ToF.dir/src/TargetSD.cc.o"
+  "CMakeFiles/ToF.dir/src/TargetSD.cc.o.d"
+  "CMakeFiles/ToF.dir/src/ToFHit.cc.o"
+  "CMakeFiles/ToF.dir/src/ToFHit.cc.o.d"
+  "CMakeFiles/ToF.dir/src/ToFSD.cc.o"
+  "CMakeFiles/ToF.dir/src/ToFSD.cc.o.d"
+  "ToF"
+  "ToF.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ToF.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
