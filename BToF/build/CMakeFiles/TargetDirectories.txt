@@ -1,0 +1,7 @@
+/Users/MIN/Desktop/geant4/LAMPS/BToF/build/CMakeFiles/BToF.dir
+/Users/MIN/Desktop/geant4/LAMPS/BToF/build/CMakeFiles/edit_cache.dir
+/Users/MIN/Desktop/geant4/LAMPS/BToF/build/CMakeFiles/rebuild_cache.dir
+/Users/MIN/Desktop/geant4/LAMPS/BToF/build/CMakeFiles/list_install_components.dir
+/Users/MIN/Desktop/geant4/LAMPS/BToF/build/CMakeFiles/install.dir
+/Users/MIN/Desktop/geant4/LAMPS/BToF/build/CMakeFiles/install/local.dir
+/Users/MIN/Desktop/geant4/LAMPS/BToF/build/CMakeFiles/install/strip.dir
